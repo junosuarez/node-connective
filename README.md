@@ -10,7 +10,7 @@ combine predicate (bool returning) functions with propositional logic connective
 var connective = require('connective')
 var or = connective.or
 var and = connective.and
-var not = connective.and
+var not = connective.not
 
 function wearsFlannel (person) {
   return person.wearing === 'flannel'
